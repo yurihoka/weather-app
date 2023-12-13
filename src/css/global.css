@@ -1,0 +1,43 @@
+* {
+  font-family: "Tilt Neon", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #fffdfa;
+  color: #0e1111;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  background-color: rgb(199, 228, 247);
+  border-radius: 1.5rem;
+  padding: 1.3rem;
+  background: linear-gradient(#c3f2fe, #44b8ab);
+}
+.container_fiveDays {
+  background-color: #043434;
+  color: #fffdfa;
+}
+.container_banner {
+  display: flex;
+  justify-content: center;
+  color: #052724;
+}
+.container_banner h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 3rem;
+}
+
+.container + * {
+  margin: 1.5rem auto;
+}
+
+/*# sourceMappingURL=global.css.map */

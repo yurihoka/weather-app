@@ -1,0 +1,17 @@
+{
+  "name": "wad-202-mid-term-weather-app-team1",
+  "version": "1.0.0",
+  "description": "**Welcome!** This challenge will help you improve your coding skills by building realistic projects.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build:css": "sass -w src/sass:src/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.18.2",
+    "sass": "^1.69.5"
+  }
+}

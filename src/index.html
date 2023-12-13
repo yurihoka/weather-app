@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Roboto:ital,wght@0,100;0,400;0,500;1,300&family=Tilt+Neon&family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container container_banner">
+      <h1>Weather App</h1>
+    </div>
+    <div class="container">
+      <favorite-city></favorite-city>
+      <search-bar></search-bar>
+      <current-weather></current-weather>
+    </div>
+    <div class="container container_fiveDays">
+      <fivedays-weather></fivedays-weather>
+    </div>
+    <div class="container container_threeHoursGaps">
+      <hourly-section></hourly-section>
+    </div>
+    <script src="./components/5days_weather.js"></script>
+    <script src="./components/web-get3HourWeatherApi.js"></script>
+    <script src="/components/favorite_city.js"></script>
+    <script src="/components/current_weather.js"></script>
+    <script src="/components/search_bar.js"></script>
+    <script
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXBFsx0NNWUwBP1XQbTufr2RN_MQ2xbnM&libraries=places&callback=initAutocomplete"
+    ></script>
+  </body>
+</html>
