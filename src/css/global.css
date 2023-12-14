@@ -16,7 +16,7 @@ body {
 
 .container {
   max-width: 90%;
-  margin: 0 auto;
+  margin: 10px auto;
   background-color: white;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(20px);

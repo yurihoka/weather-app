@@ -1,13 +1,8 @@
 @import "./global.scss";
 
-.container_fiveDays h1 {
-  text-align: center;
-  // color: black;
-}
-
 .fivedaysSection {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -16,13 +11,17 @@
   flex-direction: column;
   align-items: center;
   box-shadow: $sm-shadow;
-  // background-color: rgb(234, 255, 248);
   background-color: $secondary-background-color;
   border-radius: 10px;
-  // color: black;
-  width: 80%;
-  margin: 2rem;
+  width: 20%;
+  height: 100%;
+  margin: 0 0.5rem;
   transition: background-color 0.8s, transform 0.5s;
+
+  h2 {
+    font-size: 0.5rem;
+    margin: 0.5rem 0;
+  }
   &:hover {
     cursor: pointer;
     transform: translateY(-6px);
@@ -30,8 +29,8 @@
   }
 
   img {
-    padding: 1.5rem;
-    width: 50%;
+    padding: 1rem 0;
+    width: 70%;
   }
   p {
     padding: 0.5rem;
@@ -50,6 +49,9 @@
     width: 15%;
     img {
       width: 80%;
+    }
+    h2 {
+      font-size: 20px;
     }
   }
 }

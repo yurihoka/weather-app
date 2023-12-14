@@ -77,7 +77,6 @@ class FivedaysWeather extends HTMLElement {
   }
 
   render() {
-    // <h1>five days section</h1>
     this.innerHTML = `
   <div class="fivedaysSection">
     <div class="dayCard">

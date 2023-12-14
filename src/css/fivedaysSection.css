@@ -16,7 +16,7 @@ body {
 
 .container {
   max-width: 90%;
-  margin: 0 auto;
+  margin: 10px auto;
   background-color: white;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(20px);
@@ -35,13 +35,9 @@ body {
   margin: 1.5rem auto;
 }
 
-.container_fiveDays h1 {
-  text-align: center;
-}
-
 .fivedaysSection {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -52,9 +48,14 @@ body {
   box-shadow: 0 1.5px 10px 1px rgb(39, 55, 102);
   background-color: white;
   border-radius: 10px;
-  width: 80%;
-  margin: 2rem;
+  width: 20%;
+  height: 100%;
+  margin: 0 0.5rem;
   transition: background-color 0.8s, transform 0.5s;
+}
+.dayCard h2 {
+  font-size: 0.5rem;
+  margin: 0.5rem 0;
 }
 .dayCard:hover {
   cursor: pointer;
@@ -62,8 +63,8 @@ body {
   background-color: #ffffd8;
 }
 .dayCard img {
-  padding: 1.5rem;
-  width: 50%;
+  padding: 1rem 0;
+  width: 70%;
 }
 .dayCard p {
   padding: 0.5rem;
@@ -82,6 +83,9 @@ body {
   }
   .dayCard img {
     width: 80%;
+  }
+  .dayCard h2 {
+    font-size: 20px;
   }
 }
 

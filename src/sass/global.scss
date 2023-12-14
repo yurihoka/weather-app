@@ -1,7 +1,6 @@
 $font-size: 1rem;
 $font-color: #1f1f1f;
 $primary-background-color: #789deb;
-// $secondary-background-color: rgb(142, 179, 248);
 $secondary-background-color: white;
 
 $bigFontSize: 3rem;
@@ -28,22 +27,16 @@ body {
 
 .container {
   max-width: 90%;
-  margin: 0 auto;
+  margin: 10px auto;
   background-color: $secondary-background-color;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(20px);
-  // border: 1px solid gray;
   border-radius: 1.5rem;
   padding: 1.3rem;
-  // background: linear-gradient(#c3f2fe, #44b8ab);
 
-  // &_fiveDays h2{
-  //   font-family: ;
-  // }
   &_banner {
     display: flex;
     justify-content: center;
-    // color: #052724;
     h1 {
       font-size: $bigFontSize;
     }

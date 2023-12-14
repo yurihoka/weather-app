@@ -16,7 +16,7 @@ body {
 
 .container {
   max-width: 90%;
-  margin: 0 auto;
+  margin: 10px auto;
   background-color: white;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(20px);
@@ -53,7 +53,7 @@ body {
 
 .container {
   max-width: 90%;
-  margin: 0 auto;
+  margin: 10px auto;
   background-color: white;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(20px);
@@ -72,43 +72,53 @@ body {
   margin: 1.5rem auto;
 }
 
-.threeHoursSection {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
 .hourCard {
-  display: none;
-  flex-direction: column;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
   align-items: center;
   box-shadow: 0 1.5px 10px 1px rgb(39, 55, 102);
   background-color: white;
   border-radius: 10px;
   color: black;
-  width: 15%;
-  margin: 1.3rem;
+  width: 100%;
+  margin: 1.3rem auto;
   transition: height 1s;
 }
 .hourCard img {
-  padding: 1.2rem;
-  width: 90%;
+  margin: 0.5rem 2rem;
+  width: 20%;
 }
 .hourCard p {
   padding: 0.5rem;
-  font-size: 1.3rem;
-}
-.hourCard h2 {
-  font-size: 1.6rem;
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (min-width: 1024px) {
   .threeHoursSection {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
   }
   .hourCard {
-    width: 70%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 1.5px 10px 1px rgb(39, 55, 102);
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    width: 15%;
+    margin: 1.3rem;
+    transition: height 1s;
+    font-size: 20px;
+  }
+  .hourCard img {
+    padding: 1.2rem;
+    width: 90%;
+  }
+  .hourCard p {
+    padding: 0.5rem;
+    font-size: 1.3rem;
   }
 }
 * {
@@ -129,7 +139,7 @@ body {
 
 .container {
   max-width: 90%;
-  margin: 0 auto;
+  margin: 10px auto;
   background-color: white;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(20px);
@@ -148,13 +158,9 @@ body {
   margin: 1.5rem auto;
 }
 
-.container_fiveDays h1 {
-  text-align: center;
-}
-
 .fivedaysSection {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -165,9 +171,14 @@ body {
   box-shadow: 0 1.5px 10px 1px rgb(39, 55, 102);
   background-color: white;
   border-radius: 10px;
-  width: 80%;
-  margin: 2rem;
+  width: 20%;
+  height: 100%;
+  margin: 0 0.5rem;
   transition: background-color 0.8s, transform 0.5s;
+}
+.dayCard h2 {
+  font-size: 0.5rem;
+  margin: 0.5rem 0;
 }
 .dayCard:hover {
   cursor: pointer;
@@ -175,8 +186,8 @@ body {
   background-color: #ffffd8;
 }
 .dayCard img {
-  padding: 1.5rem;
-  width: 50%;
+  padding: 1rem 0;
+  width: 70%;
 }
 .dayCard p {
   padding: 0.5rem;
@@ -195,6 +206,9 @@ body {
   }
   .dayCard img {
     width: 80%;
+  }
+  .dayCard h2 {
+    font-size: 20px;
   }
 }
 
