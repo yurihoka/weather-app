@@ -1,19 +1,10 @@
 @import "./global.scss";
 
-.threeHoursSection {
-  // display: flex;
-  // align-items: center;
-  // justify-content: space-around;
-  // margin: ;
-}
 .hourCard {
   font-size: 10px;
   display: flex;
   justify-content: center;
-  // display: none;
-  // flex-direction: column;
   align-items: center;
-  // text-align: center;
   box-shadow: $sm-shadow;
   background-color: $secondary-background-color;
   border-radius: 10px;
@@ -21,7 +12,6 @@
   width: 100%;
   margin: 1.3rem auto;
   transition: height 1s;
-  // font-size: 20px;
   img {
     margin: 0.5rem 2rem;
     width: 20%;
@@ -58,14 +48,4 @@
       font-size: $midFontSize;
     }
   }
-
-  //   .threeHoursSection {
-  //     display: flex;
-  //     flex-direction: row;
-  //   }
-  //   .hourCard {
-  //     width: 80%;
-  //     margin: 0.5rem;
-  //     font-size: 0.5rem;
-  //   }
 }
