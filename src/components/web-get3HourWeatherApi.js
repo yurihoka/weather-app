@@ -116,7 +116,7 @@ class HourlySection extends HTMLElement {
 
     for (let i = 0; i < numberOfCards; i++) {
       hourTempList[i].innerHTML =
-        json.list[i + firstDateIndex].main.temp + "°C";
+        Math.floor(json.list[i + firstDateIndex].main.temp) + "°C";
       document.querySelector(`.hourCard-T${i + 1}`).style.display = "flex";
     }
 

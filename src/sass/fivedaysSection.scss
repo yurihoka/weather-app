@@ -2,7 +2,7 @@
 
 .container_fiveDays h1 {
   text-align: center;
-  color: black;
+  // color: black;
 }
 
 .fivedaysSection {
@@ -16,9 +16,10 @@
   flex-direction: column;
   align-items: center;
   box-shadow: $sm-shadow;
-  background-color: rgb(234, 255, 248);
+  // background-color: rgb(234, 255, 248);
+  background-color: $secondary-background-color;
   border-radius: 10px;
-  color: black;
+  // color: black;
   width: 80%;
   margin: 2rem;
   transition: background-color 0.8s, transform 0.5s;
@@ -38,7 +39,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   .fivedaysSection {
     display: flex;
     flex-direction: row;
